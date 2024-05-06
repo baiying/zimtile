@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Page not found &#8211; CrunchPress Knowledge Base</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<link rel="pingback" href="http://crunchpress.net/xmlrpc.php" />
+
+<meta name='robots' content='noindex,nofollow' />
+<link rel="alternate" type="application/rss+xml" title="CrunchPress Knowledge Base &raquo; Feed" href="http://crunchpress.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CrunchPress Knowledge Base &raquo; Comments Feed" href="http://crunchpress.net/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://crunchpress.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://crunchpress.net/wp-content/themes/supportdesk/style.css?ver=3.6.1' type='text/css' media='all' />
+<style type='text/css'>
+ 
+
+				
+
+				a, 
+
+				a:visited, 
+
+				a:hover {
+
+					color: #E36F3C;
+
+				}
+
+				
+
+				button,
+
+				input[type='reset'],
+
+				input[type='submit'],
+
+				input[type='button'],
+
+				.pagination span,
+
+				.paging-navigation .nav-previous a:hover, 
+
+				.paging-navigation .nav-next a:hover, 
+
+				.pagination a:hover,
+
+				.widget_categories li span,
+
+				.bbp-login-form .bbp-submit-wrapper,
+
+				.bbp-pagination-links span,
+
+				.kb-category-list h3 span.count,
+
+				#page-header,
+
+				.st_faq .entry-title.active .action,
+
+				.st_faq .entry-title:hover .action {
+
+				background:#13ab84;
+
+				}
+
+				
+
+				
+
+				
+</style>
+<link rel='stylesheet' id='theme-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://crunchpress.net/wp-content/themes/supportdesk/framework/shortcodes/shortcodes.css?ver=3.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://crunchpress.net/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://crunchpress.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://crunchpress.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://crunchpress.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6.1" />
+<!--[if lt IE 9]><script src="http://crunchpress.net/wp-content/themes/supportdesk/js/html5.js"></script><![endif]--><!--[if (gte IE 6)&(lte IE 8)]><script src="http://crunchpress.net/wp-content/themes/supportdesk/js/selectivizr-min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="http://crunchpress.net/wp-content/themes/supportdesk/css/style.css" media="all" />
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery("#sit-envato-demo .sit-preview").smartImageTooltip({
+			previewTemplate: "envato", 
+			imageWidth: "500px"
+			});
+    });
+</script>
+<script type='text/javascript' src='http://crunchpress.net/wp-content/themes/supportdesk/js/main-tooltip.js'></script>
+
+</head>
+
+<body class="error404">
+
+
+
+<!-- #primary-nav-mobile -->
+
+<nav id="primary-nav-mobile">
+
+<a class="menu-toggle" href="#"></a>
+
+<ul id="mobile-menu" class="clearfix"><li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://crunchpress.net/">Home</a></li>
+<li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="http://crunchpress.net/knowledgebase">Knowledge Base</a></li>
+<li id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a href="http://crunchpress.net/products">Our Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-510" class="menu-item menu-item-type-taxonomy menu-item-object-st_product_category menu-item-510"><a href="http://crunchpress.net/themetype/wordpress-themes/">WordPress Themes</a></li>
+	<li id="menu-item-509" class="menu-item menu-item-type-taxonomy menu-item-object-st_product_category menu-item-509"><a href="http://crunchpress.net/themetype/site-templates/">Site Templates</a></li>
+</ul>
+</li>
+<li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#">FAQs</a>
+<ul class="sub-menu">
+	<li id="menu-item-305" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-305"><a href="http://crunchpress.net/faq/support-policy/">Support Policy</a></li>
+	<li id="menu-item-315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-315"><a href="http://crunchpress.net/faq/general-questions/">General Questions</a></li>
+	<li id="menu-item-327" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327"><a href="http://crunchpress.net/faq/wordpress/">WordPress Theme &#038; HTML</a></li>
+</ul>
+</li>
+<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="http://crunchpress.net/contact/">Contact Us</a></li>
+</ul>
+</nav>
+
+<!-- /#primary-nav-mobile -->
+
+
+
+<!-- #header -->
+
+<header id="header" class="clearfix" role="banner">
+
+
+
+<div class="container">
+
+
+
+<div id="header-inner" class="clearfix">
+
+<!-- #logo -->
+
+  <div id="logo">
+
+      <a title="CrunchPress Knowledge Base" href="http://crunchpress.net">
+
+      <img alt="CrunchPress Knowledge Base" src="http://crunchpress.net/wp-content/themes/supportdesk/images/logo.png" />
+
+      </a>
+
+  </div>
+
+<!-- /#logo -->
+
+
+
+
+
+<!-- #primary-nav -->
+
+<nav id="primary-nav" role="navigation" class="clearfix">
+
+  
+    <ul id="menu-primary-nav" class="nav sf-menu clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://crunchpress.net/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="http://crunchpress.net/knowledgebase">Knowledge Base</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a href="http://crunchpress.net/products">Our Products</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-st_product_category menu-item-510"><a href="http://crunchpress.net/themetype/wordpress-themes/">WordPress Themes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-st_product_category menu-item-509"><a href="http://crunchpress.net/themetype/site-templates/">Site Templates</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="#">FAQs</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-305"><a href="http://crunchpress.net/faq/support-policy/">Support Policy</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-315"><a href="http://crunchpress.net/faq/general-questions/">General Questions</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327"><a href="http://crunchpress.net/faq/wordpress/">WordPress Theme &#038; HTML</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="http://crunchpress.net/contact/">Contact Us</a></li>
+</ul>
+     
+</nav>
+
+<!-- #primary-nav -->
+
+
+
+
+
+</div>
+
+</div>
+
+</header>
+
+<!-- /#header -->
+
+
+
+
+<!-- #page-header -->
+<div id="page-header" class="clearfix">
+<div class="container">
+<h1>Oops! That page can&rsquo;t be found.</h1>
+<form role="search" method="get" id="searchform" action="http://crunchpress.net/">
+        <input type="text" value="Search..." name="s" id="s" onblur="if (this.value == '')  {this.value = 'Search...';}" onfocus="if (this.value == 'Search...')  
+{this.value = '';}" />
+<input type="hidden" name="post_type" value="post" /></form>
+</div>
+</div>
+<!-- /#page-header -->
+
+<!-- #footer-bottom -->
+
+<footer id="footer" class="clearfix">
+
+
+
+
+
+
+<div id="footer-bottom" class="clearfix">
+
+<div class="container">
+
+  
+  <small id="copyright" role="contentinfo">Copyright © 2013 <a href="http://crunchpress.net/">CrunchPress</a>.</small>
+
+  
+
+
+
+
+  
+  <nav id="footer-nav" role="navigation">
+
+    <ul id="menu-footer-nav" class="nav-footer clearfix"><li id="menu-item-535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-535"><a href="http://crunchpress.net/">Home</a></li>
+<li id="menu-item-536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a href="http://crunchpress.net/knowledgebase/">Knowledge Base</a></li>
+<li id="menu-item-537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a href="http://crunchpress.net/products/">Products</a></li>
+<li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="http://crunchpress.net/contact/">Contact Us</a></li>
+</ul>
+  </nav>
+
+  
+</div>
+
+</div>
+
+
+
+</footer> 
+
+<!-- /#footer-bottom -->
+
+
+
+
+
+
+   		<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+
+		jQuery('#live-search #s').liveSearch({url: 'http://crunchpress.net/?ajax=on&post_type=st_kb&s='});
+
+		});
+
+		</script>
+
+	
+   		<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+
+		jQuery('#live-search #s').liveSearch({url: 'http://crunchpress.net/?ajax=on&post_type=st_products&s='});
+
+		});
+
+		</script>
+
+	<script type='text/javascript' src='http://crunchpress.net/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.40.0-2013.08.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/crunchpress.net\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://crunchpress.net/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://crunchpress.net/wp-content/themes/supportdesk/js/functions.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://crunchpress.net/wp-content/themes/supportdesk/js/jquery.livesearch.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://crunchpress.net/wp-content/themes/supportdesk/framework/shortcodes/shortcodes.js?ver=3.6.1'></script>
+
+
+</body>
+
+</html>
