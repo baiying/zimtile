@@ -30,6 +30,8 @@
 <link type="text/css" rel="stylesheet" href="static/css/shCore.css">
 <!--Html 5 Js-->
 <script src="static/js/html5.js" type="text/javascript"></script>
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="static/css/magnific-popup.css">
 <!-- Color Css Files Start -->
 <link rel="stylesheet" type="text/css" href="static/css/color-red.css" title="styles1" media="screen">
 </head>
@@ -107,7 +109,9 @@
           <div class="span4">
             <strong class="title">Harare</strong>
             <div>
-              <p>Corner Gleneagles & James Martin Roads, Lochinvar, Harare </p>
+              <p>
+                Corner Gleneagles & James Martin Roads, Lochinvar, Harare &nbsp;&nbsp;
+                <a class="popup-gmaps" href="https://www.google.com/maps/place/700a+Timber+Rd,+Masvingo,+%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6/@-20.0703602,30.8226366,17z/data=!3m1!4b1!4m6!3m5!1s0x1ecce0df921296e5:0x7b677a1da265845f!8m2!3d-20.0703602!4d30.8252115!16s%2Fg%2F11sdnshcls?entry=ttu">[Map]</a></p>
               <p>Tel: (+263)-242-668520, 664024, 663511-5</p>
               <p>Contact: Mabel Mucharemba (+263 772 594 788)</p>
               <p>Sales Manager – Northern Region</p>
@@ -278,10 +282,13 @@
 <!-- Style Switcher --> 
 <script type="text/javascript" src="static/js/styleswitch.js"></script> 
 <script type="text/javascript" src="static/js/jquery.tabSlideOut.v1.3.js"></script> 
+<!--Magnific Popup Js--> 
+<script src="static/js/jquery.magnific-popup.js" type="text/javascript" ></script> 
 <!--Costom Js--> 
 <script src="static/js/custom.js" type="text/javascript"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG1P9tk-yRXZvsEJFBYoc-AMN3F32H17w&callback=initMap" type="text/javascript"></script>
 <script>
+  /*
   var branches = [
     {
       lat: -17.8735084,
@@ -347,6 +354,18 @@
       });
     });
   }
+  */
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.popup-gmaps').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+  });
+});
 </script>
 </body>
 </html>

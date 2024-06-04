@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
     //Upcoming Slider
     if ($('#upcoming-news-slider').length) {
         $('#upcoming-news-slider').bxSlider({
-            infiniteLoop: false,
+            infiniteLoop: true,
             hideControlOnEnd: true,
             default: 4000
         });
@@ -103,9 +103,10 @@ jQuery(document).ready(function ($) {
     //Home Banner Function
     if ($('#home-banner').length) {
         $('#home-banner').bxSlider({
-            infiniteLoop: false,
+            auto: true,
+            infiniteLoop: true,
             hideControlOnEnd: true,
-            default: 4000
+            default: 6000
         });
     }
 
