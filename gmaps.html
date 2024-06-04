@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Custom Css-->
+  <link href="static/css/custom.css" rel="stylesheet" type="text/css">
+  <!--Bootstrap Css-->
+  <link href="static/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <!--Bootstrap Responsive Css-->
+  <link href="static/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <!--Color Css-->
+  <link href="static/css/color.css" rel="stylesheet" type="text/css">
+  <!--Font Awesome Css-->
+  <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!--Google Fonts-->
+  <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+  <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+  <title>Google Map</title>
+  <style>
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+  var branches = {
+    'ha': {
+      lat: -17.8735084,
+      lng: 30.9944641,
+      title: 'HARARE',
+      content: '<div id="content"><strong class="title">HARARE</strong><div><p>Corner Gleneagles & James Martin Roads, Lochinvar, Harare</p><p>Tel: (+263)-242-668520, 664024, 663511-5</p><p>Contact: Mabel Mucharemba (+263 772 594 788)</p><p>Sales Manager – Northern Region</p><p>mabelmu@zimtile.co.zw</p></div></div>'
+    },
+    'bu': {
+      lat: -20.1616741,
+      lng: 28.5203617,
+      title: 'BULAWAYO',
+      content: '<div id="content"><strong class="title">BULAWAYO</strong><div><p>Corner Khami & Brockley Roads, Kelvin Bulawayo</p><p>Tel: (+263)-9-409311, 409312, 405776</p><p>Contact: Gladmore Kwiri(+263 774 097 283)</p><p>Sales  Manager – Southern Region</p><p>gladmorekw@zimtile.co.zw</p></div></div>'
+    },
+    'gw': {
+      lat: -19.4551464,
+      lng: 29.8100193,
+      title: 'GWERU',
+      content: '<div id="content"><strong class="title">GWERU</strong><div><p>Std 793 DST Complex, Cnr. Leopold Takawira/Main Street, Gweru</p><p>Tel: (+263)-54-223746; 223746</p><p>Contact: Thulani Moyo (+263 778 638 809)</p><p>External Sales Rep - Gweru</p><p>thulanimo@zimtile.co.zw</p></div></div>'
+    },
+    'mu': {
+      lat: -18.9915385,
+      lng: 32.6560594,
+      title: 'MUTARE',
+      content: '<div id="content"><strong class="title">MUTARE</strong><div><p>7 Bvumba Road (Inside PG Building), Mutare</p><p>Tel: (+263)-20-65200</p><p>Contact: Shame Makumbe (+263 778 639 491)</p><p>External Sales Rep - Mutare</p><p>shamema@zimtile.co.zw</p></div></div>'
+    },
+    'ma': {
+      lat: -20.0703551,
+      lng: 30.8226366,
+      title: 'MASVINGO',
+      content: '<div id="content"><strong class="title">MASVINGO</strong><div><p>700 Timber Road, Masvingo</p><p>Tel: (+263)-39-265778; 264574</p><p>Contact: Hope Moyo (+263 778 638 528)</p><p>External Sales Rep - Masvingo</p><p>hopemo@zimtile.co.zw</p></div></div>'
+    },
+    'kw': {
+      lat: -18.9252939,
+      lng: 29.8207953,
+      title: 'KWEKWE',
+      content: '<div id="content"><strong class="title">KWEKWE</strong><div><p>1 Industrial Road, Kwekwe</p><p>Contact: Owen Mahonye (+263 772 933 569)</p><p>External Sales Rep - Kwekwe</p><p>owenma@zimtile.co.zw</p></div></div>'
+    },
+    'ep': {
+      lat: -17.9043545,
+      lng: 31.1795523,
+      title: 'EPWORTH',
+      content: '<div id="content"><strong class="title">EPWORTH</strong><div><p>6915 Adelaide Park, Epworth</p><p>Contact: Flackson Bhero (+263 773 203 808)</p><p>Operations Manager – Epworth Harare</p><p>flacksonbh@zimtile.co.zw</p></div></div>'
+    },
+  };
+
+  // 根据传入参数选择不同门店
+  function getParameterByName(name) {
+    const url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+    const results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+
+  function initMap() {
+    const branchId = getParameterByName('branch');
+    let location = branches['ha'];
+    if (branchId && branches[branchId]) {
+      location = branches[branchId]
+    }
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: { lat: location.lat, lng: location.lng }
+    });
+
+    const marker = new google.maps.Marker({
+      position: { lat: location.lat, lng: location.lng },
+      map: map,
+      title: location.title
+    });
+    const infowindow = new google.maps.InfoWindow({
+      content: location.content
+    });
+    infowindow.open(map, marker);
+  }
+  </script>
+  <script defer async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG1P9tk-yRXZvsEJFBYoc-AMN3F32H17w&callback=initMap"></script>
+</body>
+</html>
