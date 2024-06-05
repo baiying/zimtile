@@ -31,6 +31,6 @@ function setActiveNav(page) {
 document.addEventListener("DOMContentLoaded", function() {
     const currentPage = document.documentElement.getAttribute('data-page');
     console.log('data-page:', currentPage);
-    loadHtml("header-container", "/common/header.html", () => setActiveNav(currentPage));
-    loadHtml("footer-container", "/common/footer.html");
+    loadHtml("header-container", "./common/header.html", () => setActiveNav(currentPage));
+    loadHtml("footer-container", "./common/footer.html");
 });
