@@ -730,6 +730,39 @@ body {
 	text-align:center;
 	line-height:70px;
 }
+.colorfull-icons div {
+	line-height: 60px;
+}
+.colorfull-icons div em {
+	/* display:block; */
+	text-decoration:none;
+	width:36px;
+	height:36px;
+	border-radius:36px;
+}
+.colorfull-icons div a {
+	padding-left: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+.colorfull-icons div em .fa, .colorfull-icons div em .fa-brands, .colorfull-icons div em .fa-regular {
+	font-size:22px;
+	color:#fff;
+	display:block;
+	text-align:center;
+	line-height:36px;
+}
+.colorfull-icons div .double-line a {
+	display: block;
+	line-height: 20px;
+}
+.colorfull-icons div .double-line span {
+	display: block;
+	line-height: 14px;
+	font-size: 12px;
+	padding-left: 10px;
+	color: #777;
+}
 .icon-color-1 {
 	background-color:#993300;
 }
